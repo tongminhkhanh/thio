@@ -1,0 +1,7 @@
+{
+  "name": "TRỢ LÝ AI TH ÍT ONG V1.0.1",
+  "description": "TRỢ LÝ AI TH ÍT ONG là ứng dụng hỗ trợ giáo viên Việt Nam tối ưu hóa quy trình làm việc. Ứng dụng cung cấp các công cụ AI mạnh mẽ để tự động hóa việc soạn giáo án, thiết kế bài giảng, tạo đề kiểm tra và giải quyết các tình huống sư phạm.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
