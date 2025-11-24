@@ -30,9 +30,9 @@ export const MenuModal: React.FC<MenuModalProps> = ({ isOpen, onClose }) => {
         <div className="mt-6 mb-8 border-b border-slate-100 pb-6">
            <div className="flex items-center gap-3 mb-2">
              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-blue-200 shadow-md">T</div>
-             <h2 className="text-xl font-extrabold text-slate-900 tracking-tight">TRá»¢ LÃ AI TH ÃT ONG</h2>
+             <h2 className="text-xl font-extrabold text-slate-900 tracking-tight">TRỢ LÝ AI TH ÍT ONG</h2>
            </div>
-           <p className="text-slate-500 text-sm font-medium">Trá»£ lÃ½ AI toÃ n diá»‡n cho giÃ¡o viÃªn</p>
+           <p className="text-slate-500 text-sm font-medium">Trợ lý AI toàn diện cho giáo viên</p>
         </div>
 
         <div className="space-y-8 flex-1">
@@ -40,10 +40,10 @@ export const MenuModal: React.FC<MenuModalProps> = ({ isOpen, onClose }) => {
           <section>
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3 flex items-center gap-2">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                Giá»›i Thiá»‡u
+                Giới Thiệu
             </h3>
             <p className="text-slate-600 leading-relaxed text-sm bg-slate-50 p-3 rounded-lg border border-slate-100">
-              TRá»¢ LÃ AI TH ÃT ONG lÃ  á»©ng dá»¥ng há»— trá»£ giÃ¡o viÃªn Viá»‡t Nam tá»‘i Æ°u hÃ³a quy trÃ¬nh lÃ m viá»‡c. á»¨ng dá»¥ng cung cáº¥p cÃ¡c cÃ´ng cá»¥ AI máº¡nh máº½ Ä‘á»ƒ tá»± Ä‘á»™ng hÃ³a viá»‡c soáº¡n giÃ¡o Ã¡n, thiáº¿t káº¿ bÃ i giáº£ng, táº¡o Ä‘á» kiá»ƒm tra vÃ  giáº£i quyáº¿t cÃ¡c tÃ¬nh huá»‘ng sÆ° pháº¡m.
+              TRỢ LÝ AI TH ÍT ONG là ứng dụng hỗ trợ giáo viên Việt Nam tối ưu hóa quy trình làm việc. Ứng dụng cung cấp các công cụ AI mạnh mẽ để tự động hóa việc soạn giáo án, thiết kế bài giảng, tạo đề kiểm tra và giải quyết các tình huống sư phạm.
             </p>
           </section>
 
@@ -51,7 +51,7 @@ export const MenuModal: React.FC<MenuModalProps> = ({ isOpen, onClose }) => {
           <section>
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3 flex items-center gap-2">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
-                ThÃ´ng Tin NhÃ  PhÃ¡t Triá»ƒn
+                Thông Tin Nhà Phát Triển
             </h3>
             <div className="space-y-3">
               <div className="flex items-center gap-3 p-2 hover:bg-slate-50 rounded-lg transition-colors">
@@ -59,9 +59,9 @@ export const MenuModal: React.FC<MenuModalProps> = ({ isOpen, onClose }) => {
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
                 </div>
                 <div>
-                  <p className="text-[10px] text-slate-400 font-bold uppercase">NhÃ  phÃ¡t triá»ƒn</p>
-                  <p className="font-bold text-slate-800 text-sm">TÃ²ng Minh KhÃ¡nh</p>
-                  <p className="text-[10px] text-slate-500">TH Ãt Ong - MÆ°á»ng La - SÆ¡n La</p>
+                  <p className="text-[10px] text-slate-400 font-bold uppercase">Nhà phát triển</p>
+                  <p className="font-bold text-slate-800 text-sm">Tòng Minh Khánh</p>
+                  <p className="text-[10px] text-slate-500">TH Ít Ong - Mường La - Sơn La</p>
                 </div>
               </div>
               
@@ -80,7 +80,7 @@ export const MenuModal: React.FC<MenuModalProps> = ({ isOpen, onClose }) => {
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 </div>
                 <div>
-                   <p className="text-[10px] text-slate-400 font-bold uppercase">Äiá»‡n thoáº¡i</p>
+                   <p className="text-[10px] text-slate-400 font-bold uppercase">Điện thoại</p>
                    <a href="tel:0326439774" className="font-bold text-slate-800 hover:text-green-600 transition-colors text-sm">0326439774</a>
                 </div>
               </div>
@@ -91,26 +91,26 @@ export const MenuModal: React.FC<MenuModalProps> = ({ isOpen, onClose }) => {
           <section>
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3 flex items-center gap-2">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                Má»i CÃ  PhÃª
+                Mời Cà Phê
             </h3>
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-4 rounded-xl border border-amber-100 shadow-sm relative overflow-hidden">
                <div className="absolute top-0 right-0 -mt-2 -mr-2 w-16 h-16 bg-amber-200/30 rounded-full blur-xl"></div>
                <div className="relative z-10 space-y-3">
                  <div className="flex justify-between items-center border-b border-amber-200/50 pb-2">
-                    <span className="text-slate-500 text-xs font-medium">NgÃ¢n hÃ ng</span>
+                    <span className="text-slate-500 text-xs font-medium">Ngân hàng</span>
                     <span className="font-bold text-slate-800 text-sm">BIDV</span>
                  </div>
                  <div className="flex justify-between items-center border-b border-amber-200/50 pb-2">
-                    <span className="text-slate-500 text-xs font-medium">Sá»‘ tÃ i khoáº£n</span>
+                    <span className="text-slate-500 text-xs font-medium">Số tài khoản</span>
                     <div className="flex items-center gap-2">
                          <span className="font-bold text-slate-900 font-mono text-base">4130101771</span>
-                         <button onClick={() => navigator.clipboard.writeText("4130101771")} className="text-amber-600 hover:text-amber-700" title="Sao chÃ©p">
+                         <button onClick={() => navigator.clipboard.writeText("4130101771")} className="text-amber-600 hover:text-amber-700" title="Sao chép">
                             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" /></svg>
                          </button>
                     </div>
                  </div>
                  <div className="flex justify-between items-center pt-1">
-                    <span className="text-slate-500 text-xs font-medium">Chá»§ tÃ i khoáº£n</span>
+                    <span className="text-slate-500 text-xs font-medium">Chủ tài khoản</span>
                     <span className="font-bold text-slate-900 text-sm uppercase">TONG MINH KHANH</span>
                  </div>
                </div>
@@ -120,7 +120,7 @@ export const MenuModal: React.FC<MenuModalProps> = ({ isOpen, onClose }) => {
 
         <div className="mt-8 pt-6 border-t border-slate-100 text-center">
           <p className="text-[11px] text-slate-400 leading-normal">
-             Báº£n quyá»n thuá»™c vá» nhÃ  phÃ¡t triá»ƒn <strong>TÃ²ng Minh KhÃ¡nh</strong>.<br/>TrÆ°á»ng Tiá»ƒu há»c Ãt Ong, xÃ£ MÆ°á»ng La, tá»‰nh SÆ¡n La.<br/>Má»i quyá»n Ä‘Æ°á»£c báº£o lÆ°u.
+             Bản quyền thuộc về nhà phát triển <strong>Tòng Minh Khánh</strong>.<br/>Trường Tiểu học Ít Ong, xã Mường La, tỉnh Sơn La.<br/>Mọi quyền được bảo lưu.
           </p>
         </div>
       </div>
