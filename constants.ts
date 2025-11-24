@@ -1,4 +1,5 @@
 
+
 import { AppData, PromptDefinition } from './types';
 
 export const PROMPT_DATA: AppData = {
@@ -79,7 +80,7 @@ export const PROMPT_DATA: AppData = {
     },
     {
       "id": "PODCAST_STUDIO_030",
-      "title": "DMP Podcast Studio (Lồng Tiếng AI)",
+      "title": "Phòng Thu Podcast AI (Lồng Tiếng)",
       "description": "Phòng thu ảo: Chuyển đổi kịch bản thành âm thanh sống động. Hỗ trợ chế độ ĐỘC THOẠI (1 giọng) hoặc HỘI THOẠI (2 giọng nam/nữ) như người thật.",
       "tags": ["audio", "podcast", "tts", "dialogue"],
       "content": {
